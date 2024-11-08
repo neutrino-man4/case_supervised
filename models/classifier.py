@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 from collections import namedtuple
 import h5py
-import vande.vae.layers as layers
+import layers as layers
 
 @tf.function
 def kl_loss(z_mean, z_log_var):
